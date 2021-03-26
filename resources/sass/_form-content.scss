@@ -1,0 +1,110 @@
+body{
+
+    .login{
+        height: 100vh;
+    }
+
+    .register{
+        height: auto;
+    }
+
+    [x-cloak] { display: none !important; }
+
+    #form-content{
+        width: 100%;
+        background-color: $custom-lighter-grey;
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+
+
+        form{
+            background-color: $custom-lighter-grey;
+            width: 400px;
+            padding: 0px 10px 30px 10px;
+            margin: 50px 0px 50px 0px;
+            border-radius: 10px;   
+
+            .form-header{
+                height: 100px;
+                background-color: $custom-lighter-grey;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                margin: 0px -10px 20px -10px;
+                border-bottom: 1px solid $custom-lighter-grey;
+                h2{
+                    line-height: 100px;
+                    text-align: center;
+                    color: $custom-grey3;
+                    font-weight: bold;
+                }
+            }
+           
+            .form-input-style{
+                height: 40px;
+                width: 100%;
+                border-radius: 5px;
+                border: 2px solid transparent;
+                padding: 10px;
+                font-weight: bold;
+                color: $custom-grey;
+                background-color: white;
+                margin: 20px auto 20px auto;
+                transition: 0.5s;
+            }
+
+            .form-input-style::placeholder{
+                color: $custom-lighter-grey2;
+            }
+
+            .form-input-style:focus{
+                border: 2px solid $custom-yellow-darker;
+                outline: none;
+            }
+
+            .form-button-style{
+                height: 40px;
+                width: 100%;
+                border-radius: 5px;
+                border: none;
+                font-weight: bold;
+                background-color: $custom-yellow-darker;
+                color: white;
+                margin: 20px auto 20px auto;
+                transition: 0.5s;
+            }
+
+            .form-button-style:hover{
+                cursor: pointer;
+                background-color: $custom-yellow;
+                color: white;
+            }
+
+            .form-button-style:focus{
+                outline: none;
+            }
+
+            a{
+                display: block;
+                height: 40px;
+                width: 100%;
+                border-radius: 5px;
+                border: none;
+                font-weight: bold;
+                background-color: transparent;
+                color: $custom-yellow-darker;
+                text-decoration: none;
+                line-height: 40px;
+                text-align: center;
+                text-decoration: underline;
+            }
+
+            .error-message{
+                color: $custom-red;
+                font-size: 15px;
+            }
+            
+        }
+    }
+}

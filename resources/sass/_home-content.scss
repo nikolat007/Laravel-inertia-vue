@@ -1,0 +1,83 @@
+
+ 
+body{
+    #welcome {
+        width: 100%;
+        background-color: white;
+        padding: 100px 0px 50px 0px;
+
+        .container {
+            width: 70%;
+            margin: auto;
+        }
+
+        .c2r1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-gap: 40px;
+
+            .welcome-text {
+                h2 {
+                    font-family: $heading-font;
+                    font-size: 30px;
+                }
+
+                h3 {
+                    text-transform: uppercase;
+                    margin: 20px 0px;
+                    font-size: 25px;
+                    font-weight: 300;
+                }
+
+                p {
+                    text-align: justify;
+                }
+            }
+
+            img {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    #our-team {
+        width: 100%;
+        padding: 50px 0px;
+        background-color: white;
+
+        .container {
+            width: 70%;
+            margin: auto;
+
+            .title {
+                h2 {
+                    text-align: center;
+                    margin: 0px 0px 20px 0px;
+                    font-family: "Pacifico";
+                    font-size: 30px;
+                }
+            }
+
+            .team {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-gap: 50px;
+
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+
+                h3 {
+                    margin: 10px 0px;
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

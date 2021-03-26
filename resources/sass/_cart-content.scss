@@ -1,0 +1,251 @@
+body{
+    #cart-content{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        .shopping-cart{
+            margin: 50px 0px;
+            background-color: white;
+            border-radius: 10px;
+            -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.2);
+            -moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.2);
+            box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.2); 
+            .cart-header{
+                height: 100px;
+                background-color: $custom-dim-yellow;
+                color: white;
+                margin-bottom: 20px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                h3{
+                    line-height: 100px;
+                    margin-left: 20px;
+                    height: inherit;
+                    float: left;
+                    width: 200px;
+                }
+                svg{
+                    font-size: 50px;
+                    float: right;
+                    height: 100px;
+                    line-height: 50px;
+                    margin-right: 20px;
+                }
+            }
+
+            .message{
+                margin: 20px;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                background-color: $custom-dim-yellow;
+                border-radius: 10px;
+            }
+
+            .message-error{
+                background-color: $custom-dim-yellow;
+            }
+
+            .message-success{
+                background-color: $confirmation-color;
+            }
+
+            table.list{
+                border-collapse: initial;
+                border-spacing: 20px;
+                
+                background-color: transparent;
+                border-radius: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
+
+                tr{
+                    margin: 5px;
+                }
+
+                th.calc-price{
+                    padding: 5px;
+                    color: $custom-dim-yellow;
+                    background-color: transparent;
+                    font-weight: bold;
+                    border-radius: 5px;
+                }
+                
+                .titles{
+                    width: 800px;
+                    margin-top: 20px;
+                    margin-bottom: 80px;
+                    border: none;
+                    //-webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.2);
+                    //-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.2);
+                    //box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.2);     
+
+                    th {
+                        text-align: center;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        width: 200px;
+                        color: $custom-grey;
+                    }
+                }
+                .item{
+                    width: 600px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    border: none;
+                    border-radius: 10px;
+                    transition: 0.3s;
+                //-webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.2);
+                //-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.2);
+                //box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.2);     
+                
+                    th {
+                        text-align: center;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        width: 200px;
+                        font-weight: normal;
+                    }
+
+                    th#name-color{
+                        color: $custom-yellow-darker;
+                        font-weight: bold;
+                    }
+                    th#payment-color{
+                        color: $pay;
+                        font-weight: bold;
+                    }
+                    
+                    th#action{
+                        .remove-button{
+                            background-color: $custom-red;
+                            padding: 10px;
+                            border: none;
+                            border-radius: 5px;
+                            color: white;
+                            cursor: pointer;
+                            text-decoration: none;
+                        }
+                        .remove-button:focus{
+                            outline: none;
+                        }
+                    }
+                    th#quantity{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .quantity-btn{
+                        width: 20px;
+                        margin: 0px 10px;
+                        border: 1px solid grey;
+                        color: grey;
+                        border-radius: 100%;
+                        text-decoration: none;
+                    }
+                }
+
+                .item:hover{
+                    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.2);
+                    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.2);
+                    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.2);
+                    
+                }
+
+                .no-item{
+                    font-weight: normal;
+                }
+            }
+            .add-more{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+                height: 50px;
+                background-color: white;
+                border: 1px solid $google-grey;
+                border-radius: 10px;
+                margin: 20px auto 10px auto;
+                font-size: 40px;
+                color: $custom-grey;
+                line-height: 40px;
+                text-align: center;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            .input-address{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+                height: 50px;
+                background-color: white;
+                border: 1px solid $google-grey;
+                border-radius: 10px;
+                margin: 10px auto 10px auto;
+                font-size: 15px;
+                color: $custom-grey;
+                line-height: 40px;
+                text-align: center;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            .input-address:focus{
+                outline: none;
+            }
+            .cart-order{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+                height: 50px;
+                background-color: $custom-dim-yellow;
+                border-radius: 10px;
+                margin: 0px auto 20px auto;
+                font-size: 20px;
+                color: white;
+                line-height: 40px;
+                text-align: center;
+                font-weight: bold;
+                text-decoration: none;
+                border: none;
+            }
+            .cart-order:focus{
+                outline: none;
+            }
+            .cart-order:hover{
+                cursor: pointer;
+            }
+            .alert {
+                padding: 20px;
+                background-color: #f44336;
+                color: white;
+            }
+
+            .alert-success {
+                padding: 20px;
+                background-color: $confirmation-color;
+                color: white;
+            }
+              
+              .closebtn {
+                margin-left: 15px;
+                color: white;
+                font-weight: bold;
+                float: right;
+                font-size: 22px;
+                line-height: 20px;
+                cursor: pointer;
+                transition: 0.3s;
+              }
+              
+              .closebtn:hover {
+                color: black;
+              }
+        }
+    }
+}

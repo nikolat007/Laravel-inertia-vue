@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/../fonts/montserrat-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('/../fonts/montserrat-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/../fonts/montserrat-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/../fonts/montserrat-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/../fonts/montserrat-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/../fonts/montserrat-v13-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-italic - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/../fonts/montserrat-v13-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Italic'), local('Montserrat-Italic'),
+       url('/../fonts/montserrat-v13-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/../fonts/montserrat-v13-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/../fonts/montserrat-v13-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('/../fonts/montserrat-v13-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/../fonts/montserrat-v13-latin-italic.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/../fonts/pacifico-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+       url('/../fonts/pacifico-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/../fonts/pacifico-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/../fonts/pacifico-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/../fonts/pacifico-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/../fonts/pacifico-v13-latin-regular.svg#Pacifico') format('svg'); /* Legacy iOS */
+}
+
+$custom-grey: #4F4F4F;
+$custom-grey2: #37383b;
+$custom-grey3: #333333;
+$custom-lighter-grey: #F0F0F0;
+$custom-lighter-grey2: #828282;
+$custom-yellow: #F2994A;
+$active-page: #F2994A;
+$custom-yellow-darker: #f5832c;
+$custom-yellow-opacity: rgb(255, 211, 74, 0.5);
+
+$custom-dim-blue: #2D9CDB;
+$custom-dim-yellow: #F2994A;
+$custom-dim-green: #27AE60;
+
+$listPendingOrdersColor: #8d99ae;
+$listConfirmedOrdersColor: #27AE60;
+$listProductsColor: #F2994A;
+$listUsersColor: #2D9CDB;
+
+$google-blue: #2196F3;
+$google-blue-lighter: #03A9F4;
+$google-grey: #E0E0E0;
+$custom-red: #EB5757;
+$pay: #01308A;
+$pal: #079AD9;
+$confirmation-color: #4CAF50;
+
+$main-font: Montserrat;
+$heading-font: Pacifico;
