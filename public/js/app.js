@@ -29984,6 +29984,38 @@ var map = {
 		"./resources/js/Pages/Confirmation.vue",
 		"resources_js_Pages_Confirmation_vue"
 	],
+	"./Dashboard/Info": [
+		"./resources/js/Pages/Dashboard/Info.vue",
+		"resources_js_Pages_Dashboard_Info_vue"
+	],
+	"./Dashboard/Info.vue": [
+		"./resources/js/Pages/Dashboard/Info.vue",
+		"resources_js_Pages_Dashboard_Info_vue"
+	],
+	"./Dashboard/Orders": [
+		"./resources/js/Pages/Dashboard/Orders.vue",
+		"resources_js_Pages_Dashboard_Orders_vue"
+	],
+	"./Dashboard/Orders.vue": [
+		"./resources/js/Pages/Dashboard/Orders.vue",
+		"resources_js_Pages_Dashboard_Orders_vue"
+	],
+	"./Dashboard/Products": [
+		"./resources/js/Pages/Dashboard/Products.vue",
+		"resources_js_Pages_Dashboard_Products_vue"
+	],
+	"./Dashboard/Products.vue": [
+		"./resources/js/Pages/Dashboard/Products.vue",
+		"resources_js_Pages_Dashboard_Products_vue"
+	],
+	"./Dashboard/Users": [
+		"./resources/js/Pages/Dashboard/Users.vue",
+		"resources_js_Pages_Dashboard_Users_vue"
+	],
+	"./Dashboard/Users.vue": [
+		"./resources/js/Pages/Dashboard/Users.vue",
+		"resources_js_Pages_Dashboard_Users_vue"
+	],
 	"./Home": [
 		"./resources/js/Pages/Home.vue",
 		"resources_js_Pages_Home_vue"
@@ -29991,6 +30023,14 @@ var map = {
 	"./Home.vue": [
 		"./resources/js/Pages/Home.vue",
 		"resources_js_Pages_Home_vue"
+	],
+	"./Layout/Dashboard": [
+		"./resources/js/Pages/Layout/Dashboard.vue",
+		"resources_js_Pages_Layout_Dashboard_vue"
+	],
+	"./Layout/Dashboard.vue": [
+		"./resources/js/Pages/Layout/Dashboard.vue",
+		"resources_js_Pages_Layout_Dashboard_vue"
 	],
 	"./Layout/Layout": [
 		"./resources/js/Pages/Layout/Layout.vue",
@@ -30127,7 +30167,7 @@ module.exports = webpackAsyncContext;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_Pages_Cart_vue":"63f78c88c95084d90e71","resources_js_Pages_Confirmation_vue":"b3aafff877768da54189","resources_js_Pages_Home_vue":"dabd27a3db724671e338","resources_js_Pages_Layout_Layout_vue":"ada2a41c1d80047c6ace","resources_js_Pages_Layout_Slayout_vue":"9e9ebeefd8f11dfd6773","resources_js_Pages_Login_vue":"ef60b3aeb950c8bf4c47","resources_js_Pages_Profile_vue":"f7a54b9341cb3ac706c3","resources_js_Pages_Register_vue":"5fc7f29ecaad07e15ab0"}[chunkId] + "";
+/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_Pages_Cart_vue":"d849f130bbeba83e02aa","resources_js_Pages_Confirmation_vue":"13582b24913434d30cf1","resources_js_Pages_Dashboard_Info_vue":"abb27f655b7322936ee9","resources_js_Pages_Dashboard_Orders_vue":"1ce0c2af2becad3a9531","resources_js_Pages_Dashboard_Products_vue":"9e79d8fecea73e9133d2","resources_js_Pages_Dashboard_Users_vue":"2d2fa8c8fd9a27c7b82b","resources_js_Pages_Home_vue":"86f583e8636a084f61b5","resources_js_Pages_Layout_Dashboard_vue":"935ac595ddf929396948","resources_js_Pages_Layout_Layout_vue":"8ae90a38bcbead50a0cd","resources_js_Pages_Layout_Slayout_vue":"01344e6b612939ed8214","resources_js_Pages_Login_vue":"ae79a54cc07944aa6a32","resources_js_Pages_Profile_vue":"f7a54b9341cb3ac706c3","resources_js_Pages_Register_vue":"6ffd1fa0353ca25a49c2"}[chunkId] + "";
 /******/ 		};
 /******/ 	})();
 /******/ 	

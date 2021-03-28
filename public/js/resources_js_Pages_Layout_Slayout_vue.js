@@ -77,8 +77,7 @@ var render = function() {
         "nav",
         {
           staticClass:
-            "navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top",
-          staticStyle: { height: "70px" }
+            "navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top"
         },
         [
           _c("div", { staticClass: "container" }, [

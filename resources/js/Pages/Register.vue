@@ -109,42 +109,6 @@
 </script>
 
 <style>
-    .login-img {
-        position: relative;
-    }
-
-    .bg-img {
-        width: 100%;
-        height: 100%;
-        background-image: url("https://images.unsplash.com/photo-1593246049226-ded77bf90326?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
-        background-position: center;
-        background-size: cover;
-    }
-
-    .overlay-login {
-        width: 100%;
-        height: 100%;
-        opacity: 0.8;
-        position: absolute;
-        z-index: 1;
-    }
-
-    .bg-orange {
-        background-color: #FF9800;
-    }
-
-    .txt-orange {
-        color: #FF9800;
-    }
-
-    .login-text {
-        position: absolute;
-        z-index: 2;
-    }
-
-    input[type="number"]::-webkit-inner-spin-button, 
-    input[type="number"]::-webkit-outer-spin-button { 
-        -webkit-appearance: none; 
-    }
+    
 
 </style>

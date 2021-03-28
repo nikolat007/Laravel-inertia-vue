@@ -206,16 +206,5 @@
 </script>
 
 <style>
-    body {
-        background-color: #f5f5f5;
-    }
-
-    .bg-light-custom {
-        background-color: #f5f5f5;
-    }
-
-    .bg-orange {
-        background-color: #FF9800;
-    }
 
 </style>

@@ -10002,3 +10002,99 @@ h3 {
     border-color: #dee2e6;
   }
 }
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.row {
+  margin: 15px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.login-img {
+  position: relative;
+}
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/photo-1593246049226-ded77bf90326.jpg?748cc3a7207f79a895a1474b29d4d6b2);
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay-login {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: 1;
+  position: absolute;
+}
+
+.bg-orange {
+  background-color: #FF9800;
+}
+
+.txt-orange {
+  color: #FF9800;
+}
+
+.login-text {
+  position: absolute;
+  z-index: 2;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.bg-light-custom {
+  background-color: #f5f5f5;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
