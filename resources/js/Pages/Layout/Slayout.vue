@@ -8,7 +8,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <inertia-link class="nav-item nav-link active" href="/">Home</inertia-link>
+                    <inertia-link class="nav-item nav-link" href="/">Home</inertia-link>
                 </div>
             </div>
         </div>

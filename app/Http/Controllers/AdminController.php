@@ -9,6 +9,7 @@ use App\Models\User;
 use App\Models\Order;
 use App\Models\Product;
 use Illuminate\Support\Facades\Auth;
+use Inertia\Inertia;
 
 class AdminController extends Controller
 {
@@ -22,19 +23,19 @@ class AdminController extends Controller
     public function index(){
         
         Session::put('page', 'dashboard');
-        return view('stats');
+        return Inertia::render('Dashboard/Info');
     }
 
     public function userlist(){
         
         Session::put('page', 'users');
-        return view('userList');
+        return Inertia::render('Dashboard/Users');
     }
 
     public function orderlist(){
         
         Session::put('page', 'orders');
-        return view('orderList');
+        return Inertia::render('Dashboard/Pendingorders');
     }
 
     public function confirmOrder(Request $request){
@@ -49,7 +50,7 @@ class AdminController extends Controller
     public function confirmedorderlist(){
         
         Session::put('page', 'confirmed-orders');
-        return view('corderList');
+        return Inertia::render('Dashboard/Confirmedorders');
     }
 
 
@@ -57,7 +58,7 @@ class AdminController extends Controller
         
         Session::put('page', 'products');
         $products = Product::all();
-        return view('productList', ["products" => $products]);
+        return Inertia::render('Dashboard/Products');
     }
 
     public function addnewproduct(){

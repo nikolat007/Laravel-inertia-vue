@@ -9,7 +9,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="#menu">Menu</a>
                         <a class="nav-item nav-link" href="#gallery">Gallery</a>
                         <a class="nav-item nav-link" href="#aboutus">About Us</a>

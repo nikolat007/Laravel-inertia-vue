@@ -29984,6 +29984,14 @@ var map = {
 		"./resources/js/Pages/Confirmation.vue",
 		"resources_js_Pages_Confirmation_vue"
 	],
+	"./Dashboard/Confirmedorders": [
+		"./resources/js/Pages/Dashboard/Confirmedorders.vue",
+		"resources_js_Pages_Dashboard_Confirmedorders_vue"
+	],
+	"./Dashboard/Confirmedorders.vue": [
+		"./resources/js/Pages/Dashboard/Confirmedorders.vue",
+		"resources_js_Pages_Dashboard_Confirmedorders_vue"
+	],
 	"./Dashboard/Info": [
 		"./resources/js/Pages/Dashboard/Info.vue",
 		"resources_js_Pages_Dashboard_Info_vue"
@@ -29992,13 +30000,13 @@ var map = {
 		"./resources/js/Pages/Dashboard/Info.vue",
 		"resources_js_Pages_Dashboard_Info_vue"
 	],
-	"./Dashboard/Orders": [
-		"./resources/js/Pages/Dashboard/Orders.vue",
-		"resources_js_Pages_Dashboard_Orders_vue"
+	"./Dashboard/Pendingorders": [
+		"./resources/js/Pages/Dashboard/Pendingorders.vue",
+		"resources_js_Pages_Dashboard_Pendingorders_vue"
 	],
-	"./Dashboard/Orders.vue": [
-		"./resources/js/Pages/Dashboard/Orders.vue",
-		"resources_js_Pages_Dashboard_Orders_vue"
+	"./Dashboard/Pendingorders.vue": [
+		"./resources/js/Pages/Dashboard/Pendingorders.vue",
+		"resources_js_Pages_Dashboard_Pendingorders_vue"
 	],
 	"./Dashboard/Products": [
 		"./resources/js/Pages/Dashboard/Products.vue",
@@ -30167,7 +30175,7 @@ module.exports = webpackAsyncContext;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_Pages_Cart_vue":"d849f130bbeba83e02aa","resources_js_Pages_Confirmation_vue":"13582b24913434d30cf1","resources_js_Pages_Dashboard_Info_vue":"abb27f655b7322936ee9","resources_js_Pages_Dashboard_Orders_vue":"1ce0c2af2becad3a9531","resources_js_Pages_Dashboard_Products_vue":"9e79d8fecea73e9133d2","resources_js_Pages_Dashboard_Users_vue":"2d2fa8c8fd9a27c7b82b","resources_js_Pages_Home_vue":"86f583e8636a084f61b5","resources_js_Pages_Layout_Dashboard_vue":"935ac595ddf929396948","resources_js_Pages_Layout_Layout_vue":"8ae90a38bcbead50a0cd","resources_js_Pages_Layout_Slayout_vue":"01344e6b612939ed8214","resources_js_Pages_Login_vue":"ae79a54cc07944aa6a32","resources_js_Pages_Profile_vue":"f7a54b9341cb3ac706c3","resources_js_Pages_Register_vue":"6ffd1fa0353ca25a49c2"}[chunkId] + "";
+/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_Pages_Cart_vue":"f65b41ba58c8d40b30ed","resources_js_Pages_Confirmation_vue":"8084adb0ade99d11daf5","resources_js_Pages_Dashboard_Confirmedorders_vue":"3fed1c332c9ccbba52ae","resources_js_Pages_Dashboard_Info_vue":"7e96303e98b7c43fea6c","resources_js_Pages_Dashboard_Pendingorders_vue":"05f9f1b78e66c6a9db35","resources_js_Pages_Dashboard_Products_vue":"1cdec814b5a4df978ecd","resources_js_Pages_Dashboard_Users_vue":"e1d4cf60221ab34a93ff","resources_js_Pages_Home_vue":"d6adc6fea86c88482e8a","resources_js_Pages_Layout_Dashboard_vue":"463f1f577957579bdca7","resources_js_Pages_Layout_Layout_vue":"2fb0084621fcf42e437e","resources_js_Pages_Layout_Slayout_vue":"43c2d30d1ab52d8449d6","resources_js_Pages_Login_vue":"7059fc3898e5a9e3ed9e","resources_js_Pages_Profile_vue":"f7a54b9341cb3ac706c3","resources_js_Pages_Register_vue":"fda82e2b74a6798bf31c"}[chunkId] + "";
 /******/ 		};
 /******/ 	})();
 /******/ 	

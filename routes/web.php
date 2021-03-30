@@ -120,6 +120,7 @@ Route::get('/orderconfirmation', [
 /*
 //------------dashboard---------------------
 
+*/
 Route::get('/dashboard', [
     'uses' => 'App\Http\Controllers\AdminController@index',
     'as' => 'dashboard'
@@ -145,6 +146,7 @@ Route::get('/dashboard/products', [
     'as' => 'productList'
 ]);
 
+/*
 Route::post('/dashboard/vieworder', [
     'uses' => 'App\Http\Controllers\AdminController@vieworder',
     'as' => 'vieworder'

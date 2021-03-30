@@ -5,13 +5,7 @@
                     <div class="container">
                         <div class="bg-white rounded p-3 shadow-sm">
                             <div class="row d-flex p-0 m-0">
-                                <h5 class="text-secondary py-2">Registered users</h5>
-                            </div>
-                            <div class="row d-flex p-0 m-0">
-                                <form class="d-flex mb-3">
-                                    <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
-                                    <button class="btn btn-secondary" type="submit">Search</button>
-                                </form>
+                                <h5 class="text-secondary py-2">Confirmed orders</h5>
                             </div>
                             <table class="table" style="border-collapse: collapse; overflow: hidden;">
                                 <thead>
@@ -20,7 +14,7 @@
                                             <h6 class="p-0 my-2">Name</h6>
                                         </th>
                                         <th class="text-white">
-                                            <h6 class="p-0 my-2">Date created</h6>
+                                            <h6 class="p-0 my-2">Order date</h6>
                                         </th>
                                         <th class="text-white">
                                             <h6 class="p-0 my-2">Action</h6>
@@ -36,7 +30,7 @@
                                             <h6 class="p-0 my-2">10.10.2020</h6>
                                         </td>
                                         <td class="text-secondary">
-                                            <button class="btn btn-danger " type="button">Remove</button>
+                                            <button class="btn btn-secondary" type="button">View Order</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -47,7 +41,7 @@
                                             <h6 class="p-0 my-2">10.10.2020</h6>
                                         </td>
                                         <td class="text-secondary">
-                                            <button class="btn btn-danger" type="button">Remove</button>
+                                            <button class="btn btn-secondary" type="button">View Order</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -58,7 +52,7 @@
                                             <h6 class="p-0 my-2">10.10.2020</h6>
                                         </td>
                                         <td class="text-secondary">
-                                            <button class="btn btn-danger" type="button">Remove</button>
+                                            <button class="btn btn-secondary" type="button">View Order</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -69,7 +63,7 @@
                                             <h6 class="p-0 my-2">10.10.2020</h6>
                                         </td>
                                         <td class="text-secondary">
-                                            <button class="btn btn-danger" type="button">Remove</button>
+                                            <button class="btn btn-secondary" type="button">View Order</button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -80,7 +74,7 @@
                                             <h6 class="p-0 my-2">10.10.2020</h6>
                                         </td>
                                         <td class="text-secondary">
-                                            <button class="btn btn-danger" type="button">Remove</button>
+                                            <button class="btn btn-secondary" type="button">View Order</button>
                                         </td>
                                     </tr>
                                 </tbody>

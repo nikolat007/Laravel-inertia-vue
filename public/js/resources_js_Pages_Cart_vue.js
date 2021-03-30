@@ -876,7 +876,7 @@ var render = function() {
                     _c(
                       "inertia-link",
                       {
-                        staticClass: "nav-item nav-link active",
+                        staticClass: "nav-item nav-link",
                         attrs: { href: "/" }
                       },
                       [_vm._v("Home")]

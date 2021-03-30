@@ -340,14 +340,10 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "a",
-      { staticClass: "nav-item nav-link active", attrs: { href: "#" } },
-      [
-        _vm._v("Home "),
-        _c("span", { staticClass: "sr-only" }, [_vm._v("(current)")])
-      ]
-    )
+    return _c("a", { staticClass: "nav-item nav-link", attrs: { href: "#" } }, [
+      _vm._v("Home "),
+      _c("span", { staticClass: "sr-only" }, [_vm._v("(current)")])
+    ])
   },
   function() {
     var _vm = this

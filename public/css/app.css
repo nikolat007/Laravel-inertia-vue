@@ -10098,3 +10098,82 @@ input[type=number]::-webkit-outer-spin-button {
     display: none;
   }
 }
+.order-card {
+  color: #fff;
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+
+.bg-c-green {
+  background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg, #FFB64D, #ffcb80);
+}
+
+.bg-c-pink {
+  background: linear-gradient(45deg, #FF5370, #ff869a);
+}
+
+.bg-t-green {
+  color: #2ed8b6;
+}
+
+.bg-t-blue {
+  color: #4099ff;
+}
+
+.dashboard-card {
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dashboard-card .card-block {
+  padding: 25px;
+}
+
+.dashboard-icon {
+  color: white;
+}
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.notifications {
+  margin-top: 40px;
+}
+
+.sidebar-item:hover {
+  background-color: #d2e7ff;
+  color: grey;
+}
+
+.sidebar-item {
+  color: grey;
+}
+
+.bg-dashboard-color-theme {
+  background-color: #4099ff;
+}
+
+.bg-dashboard-color-text {
+  color: #4099ff;
+}
+
+a.active {
+  background-color: #4099ff !important;
+}
