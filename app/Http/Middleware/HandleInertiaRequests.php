@@ -51,6 +51,7 @@ class HandleInertiaRequests extends Middleware
                         'email' => $request->user()->email,
                         'contactNumber' => $request->user()->contactNumber,
                         'numberOfCartItems' => $request->user()->numberOfCartItems(),
+                        'admin' => $request->user()->admin
                     ] : null,
                 ];
             },

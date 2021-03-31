@@ -344,6 +344,29 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -1084,124 +1107,148 @@ var render = function() {
             "div",
             {
               staticClass: "collapse navbar-collapse justify-content-end",
-              attrs: { id: "navbarNavAltMarkup" }
+              attrs: { id: "navbarSupportedContent" }
             },
             [
-              _c(
-                "div",
-                { staticClass: "navbar-nav" },
-                [
-                  _vm._m(2),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-item nav-link",
-                      attrs: { href: "#menu" }
-                    },
-                    [_vm._v("Menu")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-item nav-link",
-                      attrs: { href: "#gallery" }
-                    },
-                    [_vm._v("Gallery")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-item nav-link",
-                      attrs: { href: "#aboutus" }
-                    },
-                    [_vm._v("About Us")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-item nav-link",
-                      attrs: { href: "#contact" }
-                    },
-                    [_vm._v("Contact")]
-                  ),
-                  _vm._v(" "),
-                  _vm.$page.props.auth.user
-                    ? _c(
-                        "inertia-link",
-                        {
-                          staticClass: "nav-item nav-link",
-                          attrs: { type: "button", href: "/cart" }
-                        },
-                        [
-                          _c("i", { staticClass: "fas fa-shopping-cart" }),
-                          _vm._v(" "),
-                          _c(
-                            "span",
-                            { staticClass: "badge bg-orange text-light p-1" },
-                            [
-                              _vm._v(
-                                _vm._s(
-                                  _vm.$page.props.auth.user.numberOfCartItems
+              _c("ul", { staticClass: "navbar-nav mb-2 mb-lg-0" }, [
+                _vm._m(2),
+                _vm._v(" "),
+                _vm._m(3),
+                _vm._v(" "),
+                _vm._m(4),
+                _vm._v(" "),
+                _vm._m(5),
+                _vm._v(" "),
+                _vm._m(6),
+                _vm._v(" "),
+                _vm.$page.props.auth.user
+                  ? _c(
+                      "li",
+                      { staticClass: "nav-item" },
+                      [
+                        _vm.$page.props.auth.user
+                          ? _c(
+                              "inertia-link",
+                              {
+                                staticClass: "nav-item nav-link",
+                                attrs: { type: "button", href: "/cart" }
+                              },
+                              [
+                                _c("i", {
+                                  staticClass: "fas fa-shopping-cart"
+                                }),
+                                _vm._v(" "),
+                                _c(
+                                  "span",
+                                  {
+                                    staticClass:
+                                      "badge bg-orange text-light p-1"
+                                  },
+                                  [
+                                    _vm._v(
+                                      _vm._s(
+                                        _vm.$page.props.auth.user
+                                          .numberOfCartItems
+                                      )
+                                    )
+                                  ]
                                 )
-                              )
-                            ]
-                          )
-                        ]
-                      )
-                    : _vm._e(),
-                  _vm._v(" "),
-                  _vm.$page.props.auth.user
-                    ? _c(
-                        "inertia-link",
+                              ]
+                            )
+                          : _vm._e()
+                      ],
+                      1
+                    )
+                  : _vm._e(),
+                _vm._v(" "),
+                _vm.$page.props.auth.user == null
+                  ? _c(
+                      "li",
+                      { staticClass: "nav-item" },
+                      [
+                        _c(
+                          "inertia-link",
+                          {
+                            staticClass:
+                              "nav-item nav-link btn text-light bg-orange",
+                            attrs: { href: "/login" }
+                          },
+                          [_vm._v("Login")]
+                        )
+                      ],
+                      1
+                    )
+                  : _vm._e(),
+                _vm._v(" "),
+                _vm.$page.props.auth.user
+                  ? _c("li", { staticClass: "nav-item dropdown" }, [
+                      _c(
+                        "a",
                         {
-                          staticClass: "nav-item nav-link",
-                          attrs: { href: "#" }
+                          staticClass: "nav-link dropdown-toggle",
+                          attrs: {
+                            id: "navbarDropdown",
+                            role: "button",
+                            "data-bs-toggle": "dropdown",
+                            "aria-expanded": "false"
+                          }
                         },
                         [
                           _vm._v(
-                            _vm._s(_vm.$page.props.auth.user.firstName) +
+                            "\n                                " +
+                              _vm._s(_vm.$page.props.auth.user.firstName) +
                               " " +
-                              _vm._s(_vm.$page.props.auth.user.lastName)
+                              _vm._s(_vm.$page.props.auth.user.lastName) +
+                              "\n                            "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "ul",
+                        {
+                          staticClass: "dropdown-menu dropdown-menu-end",
+                          attrs: { "aria-labelledby": "navbarDropdown" }
+                        },
+                        [
+                          _vm.$page.props.auth.user.admin == 1
+                            ? _c(
+                                "li",
+                                [
+                                  _c(
+                                    "inertia-link",
+                                    {
+                                      staticClass: "dropdown-item",
+                                      attrs: { href: "/dashboard" }
+                                    },
+                                    [_vm._v("Dashboard")]
+                                  )
+                                ],
+                                1
+                              )
+                            : _vm._e(),
+                          _vm._v(" "),
+                          _vm._m(7),
+                          _vm._v(" "),
+                          _c(
+                            "li",
+                            [
+                              _c(
+                                "inertia-link",
+                                {
+                                  staticClass: "dropdown-item",
+                                  attrs: { href: "/logout" }
+                                },
+                                [_vm._v("Logout")]
+                              )
+                            ],
+                            1
                           )
                         ]
                       )
-                    : _vm._e(),
-                  _vm._v(" "),
-                  _vm.$page.props.auth.user
-                    ? _c(
-                        "inertia-link",
-                        {
-                          staticClass:
-                            "nav-item nav-link btn text-light bg-orange",
-                          attrs: { href: "/logout" },
-                          on: {
-                            click: function($event) {
-                              return _vm.logout()
-                            }
-                          }
-                        },
-                        [_vm._v("Logout")]
-                      )
-                    : _vm._e(),
-                  _vm._v(" "),
-                  _vm.$page.props.auth.user == null
-                    ? _c(
-                        "inertia-link",
-                        {
-                          staticClass:
-                            "nav-item nav-link btn text-light bg-orange",
-                          attrs: { href: "/login" }
-                        },
-                        [_vm._v("Login")]
-                      )
-                    : _vm._e()
-                ],
-                1
-              )
+                    ])
+                  : _vm._e()
+              ])
             ]
           )
         ])
@@ -1210,7 +1257,7 @@ var render = function() {
     _vm._v(" "),
     _c("article", [_vm._t("default")], 2),
     _vm._v(" "),
-    _vm._m(3)
+    _vm._m(8)
   ])
 }
 var staticRenderFns = [
@@ -1233,9 +1280,9 @@ var staticRenderFns = [
         staticClass: "navbar-toggler",
         attrs: {
           type: "button",
-          "data-toggle": "collapse",
-          "data-target": "#navbarNavAltMarkup",
-          "aria-controls": "navbarNavAltMarkup",
+          "data-bs-toggle": "collapse",
+          "data-bs-target": "#navbarSupportedContent",
+          "aria-controls": "navbarSupportedContent",
           "aria-expanded": "false",
           "aria-label": "Toggle navigation"
         }
@@ -1247,10 +1294,63 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "nav-item nav-link", attrs: { href: "#" } }, [
-      _vm._v("Home "),
-      _c("span", { staticClass: "sr-only" }, [_vm._v("(current)")])
+    return _c("li", { staticClass: "nav-item" }, [
+      _c("a", { staticClass: "nav-item nav-link", attrs: { href: "#" } }, [
+        _vm._v("Home")
+      ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item" }, [
+      _c("a", { staticClass: "nav-item nav-link", attrs: { href: "#menu" } }, [
+        _vm._v("Menu")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item" }, [
+      _c(
+        "a",
+        { staticClass: "nav-item nav-link", attrs: { href: "#gallery" } },
+        [_vm._v("Gallery")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item" }, [
+      _c(
+        "a",
+        { staticClass: "nav-item nav-link", attrs: { href: "#aboutus" } },
+        [_vm._v("About Us")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item" }, [
+      _c(
+        "a",
+        { staticClass: "nav-item nav-link", attrs: { href: "#contact" } },
+        [_vm._v("Contact")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [_c("hr", { staticClass: "dropdown-divider" })])
   },
   function() {
     var _vm = this

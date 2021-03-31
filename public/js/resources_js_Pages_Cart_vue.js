@@ -550,7 +550,8 @@ var render = function() {
                                             _c(
                                               "inertia-link",
                                               {
-                                                staticClass: "btn btn-danger",
+                                                staticClass:
+                                                  "btn btn-danger text-white",
                                                 attrs: {
                                                   href:
                                                     "/removeitem/" + item.id,
@@ -779,7 +780,7 @@ var render = function() {
                                 "button",
                                 {
                                   staticClass:
-                                    "btn btn-primary btn-block w-100 waves-effect waves-light",
+                                    "btn btn-primary btn-block w-100 waves-effect waves-light text-white",
                                   attrs: { type: "submit" }
                                 },
                                 [

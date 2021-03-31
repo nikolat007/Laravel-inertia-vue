@@ -790,7 +790,6 @@ var staticRenderFns = [
                     {
                       staticClass: "nav-link dropdown-toggle text-light",
                       attrs: {
-                        href: "#",
                         id: "navbarDropdown",
                         role: "button",
                         "data-bs-toggle": "dropdown",

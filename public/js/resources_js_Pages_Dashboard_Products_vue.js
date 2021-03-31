@@ -250,7 +250,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("th", { staticClass: "text-white" }, [
                         _c("h6", { staticClass: "p-0 my-2" }, [
-                          _vm._v("Order date")
+                          _vm._v("Date created")
                         ])
                       ]),
                       _vm._v(" "),
@@ -296,7 +296,7 @@ var render = function() {
                             staticClass: "btn btn-secondary",
                             attrs: { type: "button" }
                           },
-                          [_vm._v("View Order")]
+                          [_vm._v("Edit")]
                         )
                       ])
                     ])
@@ -572,7 +572,6 @@ var staticRenderFns = [
                     {
                       staticClass: "nav-link dropdown-toggle text-light",
                       attrs: {
-                        href: "#",
                         id: "navbarDropdown",
                         role: "button",
                         "data-bs-toggle": "dropdown",

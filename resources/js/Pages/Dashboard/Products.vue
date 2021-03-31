@@ -18,7 +18,7 @@
                                             <h6 class="p-0 my-2">Name</h6>
                                         </th>
                                         <th class="text-white">
-                                            <h6 class="p-0 my-2">Order date</h6>
+                                            <h6 class="p-0 my-2">Date created</h6>
                                         </th>
                                         <th class="text-white">
                                             <h6 class="p-0 my-2">Action</h6>
@@ -37,7 +37,7 @@
                                             <h6 class="p-0 my-2">10.10.2020</h6>
                                         </td>
                                         <td class="text-secondary">
-                                            <button class="btn btn-secondary" type="button">View Order</button>
+                                            <button class="btn btn-secondary" type="button">Edit</button>
                                         </td>
                                     </tr>
                                 </tbody>

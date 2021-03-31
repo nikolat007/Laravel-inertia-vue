@@ -60,7 +60,7 @@
                                                     <div class="d-flex justify-content-between align-items-center">
                                                         <div>
                                                             <inertia-link :href="'/removeitem/' + item.id" type="button"
-                                                                class="btn btn-danger"><i
+                                                                class="btn btn-danger text-white"><i
                                                                     class="fas fa-trash-alt mr-1"></i> Remove item
                                                             </inertia-link>
                                                         </div>
@@ -127,7 +127,7 @@
                                         </div>
                                         <br>
                                         <button v-if="loadingState == false" type="submit"
-                                            class="btn btn-primary btn-block w-100 waves-effect waves-light">Go to
+                                            class="btn btn-primary btn-block w-100 waves-effect waves-light text-white">Go to
                                             checkout</button>
                                         <button v-if="loadingState == true" class="btn btn-primary btn-block w-100 waves-effect waves-light" type="button" disabled>
                                             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
