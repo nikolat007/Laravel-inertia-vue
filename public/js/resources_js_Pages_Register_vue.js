@@ -400,7 +400,7 @@ var render = function() {
                               }
                             ],
                             staticClass: "form-control",
-                            attrs: { type: "text" },
+                            attrs: { type: "text", placeholder: "Ex: John" },
                             domProps: { value: _vm.form.firstname },
                             on: {
                               input: function($event) {
@@ -438,7 +438,7 @@ var render = function() {
                               }
                             ],
                             staticClass: "form-control",
-                            attrs: { type: "text" },
+                            attrs: { type: "text", placeholder: "Ex: Doe" },
                             domProps: { value: _vm.form.lastname },
                             on: {
                               input: function($event) {
@@ -476,7 +476,10 @@ var render = function() {
                               }
                             ],
                             staticClass: "form-control contactNumber",
-                            attrs: { type: "number" },
+                            attrs: {
+                              type: "number",
+                              placeholder: "Ex: xxx/xxxxxxx"
+                            },
                             domProps: { value: _vm.form.contactNumber },
                             on: {
                               input: function($event) {
@@ -514,7 +517,10 @@ var render = function() {
                               }
                             ],
                             staticClass: "form-control",
-                            attrs: { type: "email" },
+                            attrs: {
+                              type: "email",
+                              placeholder: "Ex: john.doe@gmail.com"
+                            },
                             domProps: { value: _vm.form.email },
                             on: {
                               input: function($event) {
@@ -554,7 +560,10 @@ var render = function() {
                               }
                             ],
                             staticClass: "form-control",
-                            attrs: { type: "password" },
+                            attrs: {
+                              type: "password",
+                              placeholder: "**********"
+                            },
                             domProps: { value: _vm.form.password },
                             on: {
                               input: function($event) {

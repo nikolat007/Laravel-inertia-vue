@@ -11,28 +11,28 @@
                                     <form @submit.prevent="submit()">
                                         <div class="mb-3">
                                             <label class="form-label">First name</label>
-                                            <input type="text" v-model="form.firstname" class="form-control">
+                                            <input type="text" v-model="form.firstname" class="form-control" placeholder="Ex: John">
                                             <p v-if="errors.firstname" class="text-danger">* {{ errors.firstname }}</p>
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Last name</label>
-                                            <input type="text" v-model="form.lastname" class="form-control">
+                                            <input type="text" v-model="form.lastname" class="form-control" placeholder="Ex: Doe">
                                             <p v-if="errors.lastname" class="text-danger">* {{ errors.lastname }}</p>
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Contact number</label>
-                                            <input type="number" v-model="form.contactNumber" class="form-control contactNumber" >
+                                            <input type="number" v-model="form.contactNumber" class="form-control contactNumber" placeholder="Ex: xxx/xxxxxxx">
                                             <p v-if="errors.contactNumber" class="text-danger">* {{ errors.contactNumber }}</p>
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Email</label>
-                                            <input type="email" v-model="form.email" class="form-control">
+                                            <input type="email" v-model="form.email" class="form-control" placeholder="Ex: john.doe@gmail.com">
                                             <div class="form-text">We'll never share your email with anyone else.</div>
                                             <p v-if="errors.email" class="text-danger">* {{ errors.email }}</p>
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Password</label>
-                                            <input type="password" v-model="form.password" class="form-control">
+                                            <input type="password" v-model="form.password" class="form-control" placeholder="**********">
                                             <p v-if="errors.password" class="text-danger">* {{ errors.password }}</p>
                                         </div>
                                         <button v-if="loadingState == false" type="submit" class="btn bg-orange text-light w-100">Register</button>

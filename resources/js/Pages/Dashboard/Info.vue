@@ -77,18 +77,62 @@
                             <table class="table" style="border-collapse: collapse; overflow: hidden;">
                                 <thead>
                                     <tr class="bg-dashboard-color-theme">
-                                        <th class="text-white">
+                                        <th class="col-1 text-white">
                                             <h6 class="p-0 my-2">Mark</h6>
                                         </th>
-                                        <th class="text-white">
+                                        <th class="col-6 text-white">
                                             <h6 class="p-0 my-2">Notification</h6>
                                         </th>
-                                        <th class="text-white">
+                                        <th class="col-5 text-white">
                                             <h6 class="p-0 my-2">Date and Time</h6>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <tr>
+                                        <th scope="row" class="text-secondary">
+                                            <h6 class="p-0 my-2"><i class="fas fa-users fa-fw bg-t-blue"></i></h6>
+                                        </th>
+                                        <td class="text-secondary">
+                                            <h6 class="p-0 my-2">Mark</h6>
+                                        </td>
+                                        <td class="text-secondary">
+                                            <h6 class="p-0 my-2">1 minute ago</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-secondary">
+                                            <h6 class="p-0 my-2"><i class="fas fa-cart-plus fa-fw bg-t-green"></i></h6>
+                                        </th>
+                                        <td class="text-secondary">
+                                            <h6 class="p-0 my-2">Mark</h6>
+                                        </td>
+                                        <td class="text-secondary">
+                                            <h6 class="p-0 my-2">1 minute ago</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-secondary">
+                                            <h6 class="p-0 my-2"><i class="fas fa-users fa-fw bg-t-blue"></i></h6>
+                                        </th>
+                                        <td class="text-secondary">
+                                            <h6 class="p-0 my-2">Mark</h6>
+                                        </td>
+                                        <td class="text-secondary">
+                                            <h6 class="p-0 my-2">1 minute ago</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-secondary">
+                                            <h6 class="p-0 my-2"><i class="fas fa-cart-plus fa-fw bg-t-green"></i></h6>
+                                        </th>
+                                        <td class="text-secondary">
+                                            <h6 class="p-0 my-2">Mark</h6>
+                                        </td>
+                                        <td class="text-secondary">
+                                            <h6 class="p-0 my-2">1 minute ago</h6>
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <th scope="row" class="text-secondary">
                                             <h6 class="p-0 my-2"><i class="fas fa-users fa-fw bg-t-blue"></i></h6>

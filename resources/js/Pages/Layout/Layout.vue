@@ -37,7 +37,7 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                     <li v-if="$page.props.auth.user.admin == 1"><inertia-link class="dropdown-item" href="/dashboard">Dashboard</inertia-link></li>
-                                    <li>
+                                    <li v-if="$page.props.auth.user.admin == 1">
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li><inertia-link class="dropdown-item" href="/logout">Logout</inertia-link></li>

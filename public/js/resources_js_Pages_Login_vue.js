@@ -445,6 +445,7 @@ var render = function() {
                             attrs: {
                               type: "email",
                               id: "exampleInputEmail1",
+                              placeholder: "Your email address",
                               "aria-describedby": "emailHelp"
                             },
                             domProps: { value: _vm.form.email },
@@ -500,6 +501,7 @@ var render = function() {
                             staticClass: "form-control",
                             attrs: {
                               type: "password",
+                              placeholder: "Your password",
                               id: "exampleInputPassword1"
                             },
                             domProps: { value: _vm.form.password },

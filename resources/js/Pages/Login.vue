@@ -23,7 +23,7 @@
                                         </div>
                                         <div class="mb-3">
                                             <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email address"
                                                 aria-describedby="emailHelp" v-model="form.email">
                                             <div id="emailHelp" class="form-text">We'll never share your email with
                                                 anyone else.</div>
@@ -31,7 +31,7 @@
                                         </div>
                                         <div class="mb-3">
                                             <label for="exampleInputPassword1" class="form-label">Password</label>
-                                            <input v-model="form.password" type="password" class="form-control" id="exampleInputPassword1">
+                                            <input v-model="form.password" type="password" class="form-control" placeholder="Your password" id="exampleInputPassword1">
                                             <p v-if="errors.password" class="text-danger">* {{ errors.password }}</p>
                                         </div>
                                         <button v-if="loadingState == false" type="submit" class="btn bg-orange text-light w-100">Login</button>

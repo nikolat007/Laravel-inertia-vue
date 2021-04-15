@@ -136,11 +136,11 @@ class AdminController extends Controller
         }
         
         return response()->json([
-        'users' => $usersNo, 
-        'orders' => $ordersNo, 
-        'profit' => $profit, 
-        'products' => $productsNo, 
-        'notifications' => $jsonnotification
+            'users' => $usersNo, 
+            'orders' => $ordersNo, 
+            'profit' => $profit, 
+            'products' => $productsNo, 
+            'notifications' => $jsonnotification
         ]);
     }
 

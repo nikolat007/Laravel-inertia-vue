@@ -1228,7 +1228,11 @@ var render = function() {
                               )
                             : _vm._e(),
                           _vm._v(" "),
-                          _vm._m(7),
+                          _vm.$page.props.auth.user.admin == 1
+                            ? _c("li", [
+                                _c("hr", { staticClass: "dropdown-divider" })
+                              ])
+                            : _vm._e(),
                           _vm._v(" "),
                           _c(
                             "li",
@@ -1257,7 +1261,7 @@ var render = function() {
     _vm._v(" "),
     _c("article", [_vm._t("default")], 2),
     _vm._v(" "),
-    _vm._m(8)
+    _vm._m(7)
   ])
 }
 var staticRenderFns = [
@@ -1345,12 +1349,6 @@ var staticRenderFns = [
         [_vm._v("Contact")]
       )
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", [_c("hr", { staticClass: "dropdown-divider" })])
   },
   function() {
     var _vm = this

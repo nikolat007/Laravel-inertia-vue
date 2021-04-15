@@ -123,6 +123,50 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ["cartItem", "flash", "errors"],
@@ -474,17 +518,17 @@ var render = function() {
               [
                 _c("thead", [
                   _c("tr", { staticClass: "bg-dashboard-color-theme" }, [
-                    _c("th", { staticClass: "text-white" }, [
+                    _c("th", { staticClass: "col-1 text-white" }, [
                       _c("h6", { staticClass: "p-0 my-2" }, [_vm._v("Mark")])
                     ]),
                     _vm._v(" "),
-                    _c("th", { staticClass: "text-white" }, [
+                    _c("th", { staticClass: "col-6 text-white" }, [
                       _c("h6", { staticClass: "p-0 my-2" }, [
                         _vm._v("Notification")
                       ])
                     ]),
                     _vm._v(" "),
-                    _c("th", { staticClass: "text-white" }, [
+                    _c("th", { staticClass: "col-5 text-white" }, [
                       _c("h6", { staticClass: "p-0 my-2" }, [
                         _vm._v("Date and Time")
                       ])
@@ -493,6 +537,114 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("tbody", [
+                  _c("tr", [
+                    _c(
+                      "th",
+                      {
+                        staticClass: "text-secondary",
+                        attrs: { scope: "row" }
+                      },
+                      [
+                        _c("h6", { staticClass: "p-0 my-2" }, [
+                          _c("i", {
+                            staticClass: "fas fa-users fa-fw bg-t-blue"
+                          })
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-secondary" }, [
+                      _c("h6", { staticClass: "p-0 my-2" }, [_vm._v("Mark")])
+                    ]),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-secondary" }, [
+                      _c("h6", { staticClass: "p-0 my-2" }, [
+                        _vm._v("1 minute ago")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c(
+                      "th",
+                      {
+                        staticClass: "text-secondary",
+                        attrs: { scope: "row" }
+                      },
+                      [
+                        _c("h6", { staticClass: "p-0 my-2" }, [
+                          _c("i", {
+                            staticClass: "fas fa-cart-plus fa-fw bg-t-green"
+                          })
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-secondary" }, [
+                      _c("h6", { staticClass: "p-0 my-2" }, [_vm._v("Mark")])
+                    ]),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-secondary" }, [
+                      _c("h6", { staticClass: "p-0 my-2" }, [
+                        _vm._v("1 minute ago")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c(
+                      "th",
+                      {
+                        staticClass: "text-secondary",
+                        attrs: { scope: "row" }
+                      },
+                      [
+                        _c("h6", { staticClass: "p-0 my-2" }, [
+                          _c("i", {
+                            staticClass: "fas fa-users fa-fw bg-t-blue"
+                          })
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-secondary" }, [
+                      _c("h6", { staticClass: "p-0 my-2" }, [_vm._v("Mark")])
+                    ]),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-secondary" }, [
+                      _c("h6", { staticClass: "p-0 my-2" }, [
+                        _vm._v("1 minute ago")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("tr", [
+                    _c(
+                      "th",
+                      {
+                        staticClass: "text-secondary",
+                        attrs: { scope: "row" }
+                      },
+                      [
+                        _c("h6", { staticClass: "p-0 my-2" }, [
+                          _c("i", {
+                            staticClass: "fas fa-cart-plus fa-fw bg-t-green"
+                          })
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-secondary" }, [
+                      _c("h6", { staticClass: "p-0 my-2" }, [_vm._v("Mark")])
+                    ]),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-secondary" }, [
+                      _c("h6", { staticClass: "p-0 my-2" }, [
+                        _vm._v("1 minute ago")
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
                   _c("tr", [
                     _c(
                       "th",
